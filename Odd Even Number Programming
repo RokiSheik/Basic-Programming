@@ -1,0 +1,26 @@
+//Author: Md Roki Sheik
+//Website: https://goodlysoft.com
+// odd even number programming in C/C++
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{
+    long num,t;
+    cin>>t;
+    for(long i=0;i<t;i++){
+        cin>>num;
+        if(num%2==0){
+            cout<<"even"<<endl;
+        }
+        else{
+            cout<<"odd"<<endl;
+        }
+    }
+
+    return 0;
+}
